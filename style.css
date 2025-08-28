@@ -414,7 +414,7 @@ body {
   padding: var(--space-32) 0;
 }
 
-/* ===== NOVOS ESTILOS PARA FILTROS ===== */
+/* ===== ESTILOS PARA FILTROS ===== */
 .category-filters {
     display: flex;
     justify-content: center;
@@ -446,7 +446,7 @@ body {
     color: var(--color-btn-primary-text);
     border-color: var(--color-primary);
 }
-/* ===== FIM DOS NOVOS ESTILOS ===== */
+/* ===== FIM DOS ESTILOS DE FILTROS ===== */
 
 .gift-cards-grid {
   display: grid;
