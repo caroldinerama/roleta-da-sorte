@@ -70,250 +70,131 @@ const giftCardsData = [
     {"name": "Minecraft", "category": "Gaming", "description": "Jogo Minecraft", "usage": "Online", "icon": "⛏️"},
     {"name": "Roblox", "category": "Gaming", "description": "Plataforma de jogos Roblox", "usage": "Online", "icon": "🎮"},
     {"name": "Google Play", "category": "Gaming", "description": "Créditos Google Play", "usage": "Online", "icon": "📱"},
-    {"name": "EA Sports FC 25", "category": "Gaming", "description": "Jogo de futebol EA", "usage": "Online", "icon": "⚽"},
-    {"name": "Avatim", "category": "Moda", "description": "Moda masculina", "usage": "Loja Física e Online", "icon": "👔"},
-    {"name": "Nissei", "category": "Moda", "description": "Moda oriental", "usage": "Loja Física e Online", "icon": "👘"},
-    {"name": "Bagaggio", "category": "Acessórios", "description": "Bolsas e acessórios", "usage": "Online", "icon": "👜"},
-    {"name": "Technos", "category": "Relógios", "description": "Relógios e acessórios", "usage": "Online", "icon": "⌚"},
-    {"name": "Euro Relógios", "category": "Relógios", "description": "Relógios premium", "usage": "Online", "icon": "⌚"},
-    {"name": "Fossil", "category": "Relógios", "description": "Relógios e acessórios", "usage": "Online", "icon": "⌚"},
-    {"name": "Talchá", "category": "Bebidas", "description": "Chás e bebidas especiais", "usage": "Online", "icon": "🍵"},
-    {"name": "Claro TV+", "category": "Streaming", "description": "Streaming de vídeo", "usage": "Online", "icon": "📺"},
-    {"name": "Shopee", "category": "E-commerce", "description": "Marketplace online", "usage": "Online", "icon": "🛒"},
-    {"name": "Pontofrio", "category": "E-commerce", "description": "Eletrodomésticos online", "usage": "Online", "icon": "🔌"},
-    {"name": "Extra.com.br", "category": "E-commerce", "description": "Supermercado online", "usage": "Online", "icon": "🛒"},
-    {"name": "Nosso Pay", "category": "Fintech", "description": "Soluções de pagamento", "usage": "Loja Física e Online", "icon": "💳"}
+    {"name": "EA Sports FC 25", "category": "Gaming", "description": "Jogo de futebol", "usage": "Online", "icon": "⚽"},
+    {"name": "Ifood", "category": "Delivery", "description": "Plataforma de delivery", "usage": "Online", "icon": "🛵"},
+    {"name": "Cacau Show", "category": "Doces", "description": "Chocolates finos", "usage": "Loja Física e Online", "icon": "🍫"},
+    {"name": "Evino", "category": "Bebidas", "description": "Clube de vinhos", "usage": "Online", "icon": "🍷"}
 ];
+
 
 const faqData = [
     {
-        "question": "O que é a Roleta da Sorte Dinerama?",
-        "answer": "É uma promoção especial da Dinerama, onde você pode girar uma roleta virtual e concorrer a gift cards digitais de R$25, R$100 ou R$500."
+        question: "Como funciona a promoção Roleta da Sorte?",
+        answer: "A cada missão que você completa no aplicativo Dinerama, você acumula pontos. Com esses pontos, você pode girar a Roleta da Sorte para ter a chance de ganhar gift cards digitais nos valores de R$25, R$100 ou R$500."
     },
     {
-        "question": "Quem pode participar?",
-        "answer": "• Pessoas físicas com 18 anos ou mais.<br>• Residentes no Brasil.<br>• Todos usuários e usuárias com cadastro válido, ativo e que tenha saldo de pontos.<br>• Aceite os termos e condições da promoção."
+        question: "Onde posso usar os gift cards?",
+        answer: "Você pode usar os gift cards em uma vasta rede de parceiros, que inclui lojas físicas e online. Cada gift card tem sua especificação de uso, que pode ser consultada na descrição dele."
     },
     {
-        "question": "Como posso participar?",
-        "answer": "• Complete as missões no app (elas rendem pontos).<br>• Troque seus pontos por chances de girar a roleta."
+        question: "Como recebo meu gift card?",
+        answer: "Após ganhar na Roleta da Sorte, o gift card digital é enviado diretamente para o seu e-mail cadastrado no aplicativo Dinerama. Você também poderá acessá-lo na seção 'Meus Prêmios' do app."
     },
     {
-        "question": "Como acumular pontos?",
-        "answer": "Você pode acumular pontos realizando as seguintes ações:<br>• Check-in diário: Faça login no app todos os dias. (100 pontos por check-in)<br>• Completar uma semana: Faça check-in diário durante uma semana inteira. (+1.200 pontos ao completar a semana)<br>• Completar um mês: Faça check-in diário durante um mês inteiro. (+4.100 pontos ao completar a semana)<br>• Enviar notas fiscais com o seu CPF para obter pontos (600 pontos por nota, respeitando o limite de 6 notas semanais)<br>• Missões: A Dinerama pode oferecer missões extras para acúmulo de pontos (ainda em definição)"
-    },
-    {
-        "question": "Como funciona na prática?",
-        "answer": "• Basta abrir o app, aceitar os termos da promoção e completar as missões disponíveis para acumular pontos.<br>• Troque os pontos pelas tentativas de giro da roleta."
-    },
-    {
-        "question": "Quantos prêmios posso ganhar?",
-        "answer": "Máximo de 1 prêmio por CPF por mês."
-    },
-    {
-        "question": "Quais são os prêmios?",
-        "answer": "• Gift Cards de R$25<br>• Gift Card de R$100<br>• Gift Card de R$500"
-    },
-    {
-        "question": "Como recebo meu prêmio?",
-        "answer": "• O gift card será enviado por e-mail em até 30 dias após a confirmação da sua contemplação.<br>• Junto com o gift card, você receberá instruções de uso.<br>• A Dinerama se reserva o direito de efetuar o cancelamento do prêmio caso constate a condição do solicitante, em infração à presente disposição, bem como de qualquer outra regra destes Termos de Uso."
-    },
-    {
-        "question": "Posso trocar o gift card por dinheiro?",
-        "answer": "Não. Ele não pode ser convertido em dinheiro, nem ter saque ou transferência."
-    },
-    {
-        "question": "Por que posso ser desqualificado?",
-        "answer": "• Não ter 18 anos.<br>• Não completar as missões no app.<br>• Não enviar documentos solicitados em caso de premiação<br>• Não seguir as regras e diretrizes dos termos de uso"
-    },
-    {
-        "question": "Preciso de ajuda, como entro em contato?",
-        "answer": "Envie e-mail para meajuda@dinerama.com.br"
+        question: "Os gift cards têm validade?",
+        answer: "Sim, cada gift card tem um prazo de validade específico, que varia de acordo com o parceiro. A data de validade estará claramente indicada no e-mail e no aplicativo junto com o seu prêmio."
     }
 ];
 
-// Utility function for smooth scrolling
+// Smooth scroll to section
 function scrollToSection(sectionId) {
-    const section = document.getElementById(sectionId);
-    if (section) {
-        section.scrollIntoView({
-            behavior: 'smooth',
-            block: 'start'
-        });
-    }
+  document.getElementById(sectionId).scrollIntoView({
+    behavior: 'smooth'
+  });
 }
 
-// Function to create gift card HTML
-function createGiftCardHTML(giftCard, index) {
-    const backgroundColors = [
-        'var(--color-bg-1)', 'var(--color-bg-2)', 'var(--color-bg-3)', 
-        'var(--color-bg-4)', 'var(--color-bg-5)', 'var(--color-bg-6)', 
-        'var(--color-bg-7)', 'var(--color-bg-8)'
-    ];
-    
-    const bgColor = backgroundColors[index % backgroundColors.length];
-    
-    return `
-        <div class="gift-card">
-            <div class="gift-card-header">
-                <div class="gift-card-icon" style="background: ${bgColor};">
-                    ${giftCard.icon}
-                </div>
-                <span class="gift-card-category">${giftCard.category}</span>
-            </div>
-            <h3 class="gift-card-title">${giftCard.name}</h3>
-            <p class="gift-card-description">${giftCard.description}</p>
-            <p class="gift-card-usage"><strong>Usar em:</strong> ${giftCard.usage}</p>
-        </div>
-    `;
-}
-
-// Function to create FAQ item HTML
-function createFAQItemHTML(faqItem, index) {
-    return `
-        <div class="faq-item" data-index="${index}">
-            <div class="faq-question" role="button" tabindex="0" aria-expanded="false" aria-controls="faq-answer-${index}">
-                <span>${faqItem.question}</span>
-                <span class="faq-icon">+</span>
-            </div>
-            <div class="faq-answer" id="faq-answer-${index}" role="region">
-                <div class="faq-answer-content">${faqItem.answer}</div>
-            </div>
-        </div>
-    `;
-}
-
-// Function to populate gift cards
-function populateGiftCards() {
+// Populate gift cards in the grid
+function populateGiftCards(category = 'Todos') {
     const container = document.getElementById('gift-cards-container');
-    if (container) {
-        const giftCardsHTML = giftCardsData
-            .map((giftCard, index) => createGiftCardHTML(giftCard, index))
-            .join('');
-        container.innerHTML = giftCardsHTML;
-    }
-}
-
-// Function to toggle FAQ item
-function toggleFAQItem(faqItem) {
-    const isActive = faqItem.classList.contains('active');
-    const question = faqItem.querySelector('.faq-question');
-    const answer = faqItem.querySelector('.faq-answer');
+    container.innerHTML = ''; // Clear existing cards
     
-    // Close all FAQ items first
-    const allFaqItems = document.querySelectorAll('.faq-item');
-    allFaqItems.forEach(item => {
-        item.classList.remove('active');
-        const itemQuestion = item.querySelector('.faq-question');
-        const itemAnswer = item.querySelector('.faq-answer');
-        if (itemQuestion) itemQuestion.setAttribute('aria-expanded', 'false');
-        if (itemAnswer) itemAnswer.style.maxHeight = '0px';
+    const filteredData = category === 'Todos'
+        ? giftCardsData
+        : giftCardsData.filter(card => card.category === category);
+
+    filteredData.forEach((card, index) => {
+        const cardElement = document.createElement('div');
+        cardElement.className = 'gift-card';
+        
+        const bgColorClass = `bg-${(index % 8) + 1}`;
+
+        cardElement.innerHTML = `
+            <div class="gift-card-icon ${bgColorClass}">${card.icon}</div>
+            <h3 class="gift-card-name">${card.name}</h3>
+            <p class="gift-card-description">${card.description}</p>
+            <div class="gift-card-tags">
+                <span class="gift-card-tag">${card.category}</span>
+                <span class="gift-card-tag">${card.usage}</span>
+            </div>
+        `;
+        container.appendChild(cardElement);
     });
-    
-    // If the clicked item wasn't active, open it
-    if (!isActive) {
-        faqItem.classList.add('active');
-        if (question) question.setAttribute('aria-expanded', 'true');
-        if (answer) {
-            // Calculate the actual height needed
-            const content = answer.querySelector('.faq-answer-content');
-            if (content) {
-                answer.style.maxHeight = content.scrollHeight + 40 + 'px'; // Add padding
-            }
-        }
-    }
 }
 
-// Function to populate FAQ
+// Populate FAQ items
 function populateFAQ() {
     const container = document.getElementById('faq-container');
-    if (!container) return;
+    faqData.forEach(item => {
+        const faqItem = document.createElement('div');
+        faqItem.className = 'faq-item';
+        faqItem.innerHTML = `
+            <button class="faq-question">${item.question}</button>
+            <div class="faq-answer">
+                <p>${item.answer}</p>
+            </div>
+        `;
+        container.appendChild(faqItem);
+    });
+}
+
+// Populate category filter buttons
+function populateCategoryFilters() {
+    const container = document.getElementById('category-filters');
+    const categories = ['Todos', ...new Set(giftCardsData.map(card => card.category))];
     
-    const faqHTML = faqData
-        .map((faqItem, index) => createFAQItemHTML(faqItem, index))
-        .join('');
-    container.innerHTML = faqHTML;
-    
-    // Add click event listeners to FAQ questions
-    const faqItems = container.querySelectorAll('.faq-item');
-    faqItems.forEach(faqItem => {
-        const question = faqItem.querySelector('.faq-question');
-        if (question) {
-            // Handle click events - prevent event bubbling and default actions
-            question.addEventListener('click', function(e) {
-                e.preventDefault();
-                e.stopPropagation();
-                toggleFAQItem(faqItem);
-            });
-            
-            // Handle keyboard events for accessibility
-            question.addEventListener('keydown', function(e) {
-                if (e.key === 'Enter' || e.key === ' ') {
-                    e.preventDefault();
-                    e.stopPropagation();
-                    toggleFAQItem(faqItem);
-                }
-            });
+    categories.forEach(category => {
+        const button = document.createElement('button');
+        button.className = 'filter-btn';
+        button.textContent = category;
+        button.dataset.category = category;
+        if (category === 'Todos') {
+            button.classList.add('active');
+        }
+        container.appendChild(button);
+    });
+
+    // Add event listener to filter buttons
+    container.addEventListener('click', (e) => {
+        if (e.target.classList.contains('filter-btn')) {
+            // Remove active class from all buttons
+            container.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
+            // Add active class to clicked button
+            e.target.classList.add('active');
+            // Repopulate gift cards with the selected category
+            populateGiftCards(e.target.dataset.category);
         }
     });
 }
 
 // Initialize the application
 function initializeApp() {
-    // Populate content
+    populateCategoryFilters();
     populateGiftCards();
     populateFAQ();
-    
-    // Add smooth scrolling to internal links
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener('click', function (e) {
-            e.preventDefault();
-            const targetId = this.getAttribute('href').substring(1);
-            scrollToSection(targetId);
+
+    // Setup FAQ accordion
+    const faqQuestions = document.querySelectorAll('.faq-question');
+    faqQuestions.forEach(question => {
+        question.addEventListener('click', () => {
+            const answer = question.nextElementSibling;
+            answer.style.maxHeight = answer.style.maxHeight ? null : answer.scrollHeight + "px";
         });
-    });
-    
-    // Prevent any modal behaviors by removing existing modal handlers
-    document.addEventListener('click', function(e) {
-        // Prevent any modal behaviors on gift cards
-        if (e.target.closest('.gift-card')) {
-            e.preventDefault();
-            e.stopPropagation();
-        }
     });
 }
 
 // Run when DOM is loaded
 document.addEventListener('DOMContentLoaded', function() {
     initializeApp();
-    
-    // Add hover effects to gift cards with slight delay for staggered animation
-    setTimeout(() => {
-        const giftCards = document.querySelectorAll('.gift-card');
-        giftCards.forEach((card, index) => {
-            card.style.animationDelay = `${index * 0.1}s`;
-            card.classList.add('fade-in');
-        });
-    }, 100);
-    
-    // Add intersection observer for scroll animations
-    const observerOptions = {
-        threshold: 0.1,
-        rootMargin: '0px 0px -50px 0px'
-    };
-    
-    const observer = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                entry.target.classList.add('animate-in');
-            }
-        });
-    }, observerOptions);
-    
-    // Observe sections for animation
-    document.querySelectorAll('.gift-cards-section, .faq-section').forEach(section => {
-        observer.observe(section);
-    });
 });
 
 // Expose scrollToSection function globally
